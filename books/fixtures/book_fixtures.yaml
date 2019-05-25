@@ -1,0 +1,59 @@
+- model: books.publisher
+  pk: 1
+  fields:
+    name: Acme
+- model: books.publisher
+  pk: 2
+  fields:
+    name: Penguin
+- model: books.publisher
+  pk: 3
+  fields:
+    name: Pearson
+- model: books.publisher
+  pk: 4
+  fields:
+    name: Wiley
+- model: books.publisher
+  pk: 5
+  fields:
+    name: Klett
+- model: books.book
+  pk: 1
+  fields:
+    title: Moby Dick
+    price: 10
+    publisher: 2
+- model: books.book
+  pk: 2
+  fields:
+    title: Gone With the Wind
+    price: 11
+    publisher: 5
+- model: books.book
+  pk: 3
+  fields:
+    title: Zero to One
+    price: 12
+    publisher: 3
+- model: books.book
+  pk: 4
+  fields:
+    title: Applied Cryptography 
+    price: 16
+    publisher: 3
+- model: books.book
+  pk: 5
+  fields:
+    title: Programming Perl 
+    price: 112
+    publisher: 3
+- model: books.book
+  pk: 6
+  fields:
+    title: Regular Expressions 
+    price: 12
+    publisher: 3
+
+
+
