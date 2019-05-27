@@ -18,42 +18,53 @@
   pk: 5
   fields:
     name: Klett
+- model: books.author
+  pk: 1
+  fields:
+    name: Fyodor Dostoyevsky 
+- model: books.author
+  pk: 2
+  fields:
+    name: Daniel Keyes 
+- model: books.author
+  pk: 3
+  fields:
+    name: Victor Hugo 
 - model: books.book
   pk: 1
   fields:
-    title: Moby Dick
+    title: Crime and Punishment 
     price: 10
     publisher: 2
+    authors: [1]
 - model: books.book
   pk: 2
   fields:
-    title: Gone With the Wind
+    title: Flowers for Algernon 
     price: 11
     publisher: 5
+    authors: [2]
 - model: books.book
   pk: 3
   fields:
-    title: Zero to One
+    title: Les Miserables 
     price: 12
     publisher: 3
+    authors: [3]
 - model: books.book
   pk: 4
   fields:
-    title: Applied Cryptography 
-    price: 16
+    title: Notre-Dame de Paris 
+    price: 12
     publisher: 3
+    authors: [3]
 - model: books.book
   pk: 5
   fields:
-    title: Programming Perl 
-    price: 112
-    publisher: 3
-- model: books.book
-  pk: 6
-  fields:
-    title: Regular Expressions 
+    title: Poor Folk 
     price: 12
     publisher: 3
+    authors: [1]
 
 
 
