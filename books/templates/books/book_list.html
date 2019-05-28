@@ -5,7 +5,11 @@
     <h2>Books</h2>
 	<ul>
 	{% for book in object_list %}
-        <li> book.name </li>
+        <div class="container">
+
+            <li> {{book.title}} </li>
+            Authors: {% for author in book.authors.all %} {{ author.name }} {% endfor %}
+        </div>
 	{% endfor %}
 	</ul>
 {% endblock %}
